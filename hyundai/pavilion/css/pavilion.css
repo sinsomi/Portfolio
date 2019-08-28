@@ -1,0 +1,126 @@
+/*font-face*/
+@font-face {
+	font-family:'Hyundai_L'; font-style:normal; 
+	src:url(fonts/HyundaiSansHeadKRLight.eot);
+	src:url(fonts/HyundaiSansHeadKRLight.eot?#iefix) format('embedded-opentype'),/*í°íŠ¸ì„¤ì •ë°©ë²•*/
+	url(fonts/HyundaiSansHeadKRLight.woff) format('woff'),
+	url(fonts/HyundaiSansHeadKRLight.ttf) format('truetype');
+}
+@font-face {
+	font-family:'Hyundai_R'; font-style:normal; 
+	src:url(fonts/HyundaiSansHeadKRRegular.eot);
+	src:url(fonts/HyundaiSansHeadKRRegular.eot?#iefix) format('embedded-opentype'),
+	url(fonts/HyundaiSansHeadKRRegular.woff) format('woff'),
+	url(fonts/HyundaiSansHeadKRRegular.ttf) format('truetype');
+}
+@font-face {
+	font-family:'Hyundai_M'; font-style:normal; 
+	src:url(fonts/HyundaiSansHeadKRMedium.eot);
+	src:url(fonts/HyundaiSansHeadKRMedium.eot?#iefix) format('embedded-opentype'),
+	url(fonts/HyundaiSansHeadKRMedium.woff) format('woff'),
+	url(fonts/HyundaiSansHeadKRMedium.ttf) format('truetype');
+}
+@font-face {
+	font-family:'Hyundai_B'; font-style:normal; 
+	src:url(fonts/HyundaiSansHeadKRBold.eot);
+	src:url(fonts/HyundaiSansHeadKRBold.eot?#iefix) format('embedded-opentype'),
+	url(fonts/HyundaiSansHeadKRBold.woff) format('woff'),
+	url(fonts/HyundaiSansHeadKRBold.ttf) format('truetype');
+}
+body,html,div{font-family:"Hyundai_R",sans-serif !important;}
+div,ul,ol,li,dl,dd,dt,p,span,h3{list-style: none; padding:0; margin:0;}
+a{text-decoration:none;}
+body,html{padding:0; margin:0;}
+.main_wrap{width:100%; margin:0;} /*ë¨¼ì € width:100%ë¡œ ìº”ë²„ìŠ¤ì— ì˜ì—­ì„ ì–¸ì„ í•´ì¤ë‹ˆë‹¤.*/
+/*nav*/
+.main_wrap .menu_box{background-color:#2f2f2f;top:0;right:0;height:100%; width:430px; position:absolute;position:fixed;display:block; z-index:10;}
+.main_wrap .menu_box ul li ul li{display:block; color:#777; font-size:24px; line-height:35px; margin:15px 5px 20px 60px;}
+.main_wrap .menu_box ul li#img{position: absolute;top: 49px;right: 73px;width: 40px;height: 38px;}
+.main_wrap .menu_box ul li#menu_text{margin:0;}
+.main_wrap .menu_box ul li ul li#one{margin:100px 5px 20px 60px;}
+.main_wrap .menu_box ul li ul li#five{color:#2c87c8;}
+/*space*/
+.main_wrap .space{position:absolute;position:fixed;height:100%;width:770px;top:0;left:0;z-index:11;}
+/*main-frame*/
+.main_wrap .frame_wrap{width:100%; min-width:1200px; display:block;} /*ë‚´ë¶€ wrap(frame_wrap)ì„ ì„ ì–¸í•´ì„œ min-width:1200px;ìœ¼ë¡œ 1200pxì§œë¦¬ ìµœì†Œì˜ì—­ì„ ì„¤ì •í•´ ë‘¡ë‹ˆë‹¤. 1200pxì˜ì—­ë³´í˜¸*/
+.main_wrap .frame_wrap .frame_inner{padding:30px 40px 40px; position:relative;}/*í•œ ë‹¨ê³„ ë” wrapì„ ë‘ì–´ íŒ¨ë”©ê°’ìœ¼ë¡œ ì—¬ë°±ì„ ì¡°ì ˆ í•´ ì¤ë‹ˆë‹¤. í•œ ë‹¨ê³„ ë” ë§Œë“œëŠ” ì´ìœ ëŠ” ë¸Œë¼ìš°ì €ì˜ ê°€ë¡œìŠ¤í¬ë¡¤ì„ í”¼í•˜ê¸° ìœ„í•´ì„œ ìž…ë‹ˆë‹¤. ã… ã… */
+/*header*/
+.main_wrap .frame_wrap .frame_inner .header ul li{display:inline-block; position:relative; vertical-align:text-top;}/*frame_innerì— ë“¤ì–´ê°€ëŠ” ëª¨ë“  li êµ¬ë¬¸ì— display:inline-block; ì¦‰ ë‚˜ëˆ”ì˜ì—­ì„ ì„ ì–¸í•´ ì¤ë‹ˆë‹¤.*/
+.main_wrap .frame_wrap .frame_inner .header ul li.icon{text-align:left; width:20%;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo{width:55%; text-align:center;margin-left: 29px;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo ul li img{margin-right: 8px;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_ ul{margin-bottom:-5px;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_ ul li.logo_pa{font-family:'Hyundai';font-size:27px; color:#5b6165; padding:20px 0 0 0;  margin:0 0 0px 0;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_des ul li{display:inline-block;}/*logo_des ë“¤ì–´ê°€ëŠ” ëª¨ë“  li êµ¬ë¬¸ì— display:inline-block;ì„ ì„ ì–¸í•´ ì¤ë‹ˆë‹¤. ì´ì™¸ liì—ëŠ” inline-blockì„ ì„ ì–¸í•´ ì¤„ í•„ìš”ì—†ìŠµë‹ˆë‹¤.*/
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_des ul li a{color:#454545;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_des ul li.menu_bar{font-size:16px; color:#999; padding:0 5px;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_des ul li.menu_name{font-family:'Hyundai';font-size:19px; color:#393b3b;letter-spacing:-0.03em;}
+.main_wrap .frame_wrap .frame_inner .header ul li.logo .logo_des ul li.menu_name a:hover{color:#2c87c8;}
+.main_wrap .frame_wrap .frame_inner .header ul li.menu{width:20%; float:right; text-align:right;}/*ì˜¤ë¸Œì íŠ¸ì— ì˜¤ë¥¸ìª½ ì •ë ¬ì„ ì„ ì–¸í•©ë‹ˆë‹¤.*/
+.main_wrap .frame_wrap .frame_inner .header ul li.menu .menu_ ul li.menu_img{position: absolute;top: 21px;right: 33px;width: 40px;height: 38px; cursor:pointer;}
+.main_wrap .frame_wrap .frame_inner .header ul li.menu .menu_ ul li.select{position: absolute;top: 27px;right: 100px;}/*ëŒ€ì†Œë¬¸ìž êµ¬ë¶„ì— ë”°ë¼ classê°€ ë°˜ì˜ì•ˆë ìˆ˜ ìžˆìŠµë‹ˆë‹¤.*/
+.main_wrap .frame_wrap .frame_inner .header ul li.menu .menu_ ul li.select .lan{cursor:pointer;border:1px solid #2c87c8;width:109px;height:28px;padding:0 0 0 13px;font-size:13px;line-height:15px;}
+.main_wrap .frame_wrap .frame_inner .header .btn{cursor:pointer;position:absolute;bottom:-11px ;left:50%;z-index:3; margin-left:-13px;}
+/*content_sta*/
+.content_wrap{margin:0;display:block;position:relative; border:0px red solid;}
+.content_wrap .content_sta{}
+.content_wrap .content_sta .content_sta_area{max-width: 1980px;position: relative;margin: 0 auto;}
+.content_wrap .content_sta .content_sta_area .content_sta_bg{z-index:2;display:block;position: absolute;top:0;right:0;height: 632px;}
+.content_wrap .content_sta .content_sta_area .txt_wrap{position: relative;width: 1410px;height: 632px;padding: 90px 0 0 130px;background-color: #000;margin: 0 auto;box-sizing: border-box;}/*box-sizing??????*/
+.content_wrap .content_sta .content_sta_area .txt_wrap .title_img_desc{border:0px red solid; text-align:left;}
+.content_wrap .content_sta .content_sta_area .txt_wrap .txt{display:block;z-index: 3;position:relative;}
+.content_wrap .content_sta .content_sta_area .txt_wrap .txt .txt_1{margin:0 0 20px 0;display:block;color:#2c87c8;font-size:50px;line-height:60px;}
+.content_wrap .content_sta .content_sta_area .txt_wrap .txt .txt_1 ul{line-height: 60px;}
+.content_wrap .content_sta .content_sta_area .txt_wrap .txt .txt_1 ul li{display:inline-block; font-family: 'Hyundai_M';}
+.content_wrap .content_sta .content_sta_area .txt_wrap .txt .hypen{display: block;height: 2px;width: 24px;background-color: #2c87c8;margin: 16px 0 20px;}
+.content_wrap .content_sta .content_sta_area .video_wrap{position: absolute;top: 220px;left: 47%;width: 516px;margin: 0 0 0 71px;border:0px solid red;height:35%;z-index:4;}
+.content_wrap .content_sta .content_sta_area .video_wrap .video iframe{position:absolute;right:-20;height:100%;width:100%;}
+/*content_main*/
+.content_wrap .content_main{background-color:#f6f6f6;width:100%;  margin:80px 0 0 0;padding:50px 0;}
+.content_wrap .content_main .content{width: 1170px; margin:0 auto; position:relative;}
+.content_wrap .content_main .content .h1{color: #2c87c8;font-size: 22px;margin:0 0 15px;}
+.content_wrap .content_main .content .bxslider{width:1170px;height:572px;}
+.content_wrap .content_main .content .bxslider img{width:100%;height:572px;}
+.content_wrap .content_main .content .letter{background-color:#fff;padding: 40px 85px 40px 85px; /*width:1170px;*/display:block;}
+.content_wrap .content_main .content .letter .desc{padding:20px 0 0 0 ;}
+.content_wrap .content_main .content .letter .title .strong{font-family:'Hyundai_B'}
+.content_wrap .content_main .content .letter_3{background-color:#fff;padding: 35px 85px 0; /*width:1170px;*/height: 170px;display:block;}
+.content_wrap .content_main .content .letter ul li.title{font-size:24px;font-family:'Hyundai_R'}
+.content_wrap .content_main .content .letter ul li p{font-size:14px; line-height:1.6;}
+.content_wrap .content_main .content .letter_3 ul li.title{font-size:24px;}
+.content_wrap .content_main .content .letter_3 ul li p{font-size:14px; line-height:1.6;}
+.content_wrap .content_main p.in{font-size: 14px;color: #4f4f4f;padding-left: 87px;margin-top: 22px;}
+.cycle-slideshow{position:relative; width:100%;}
+.cycle-slideshow .pager .prev{position:absolute; top:230px; left:0; z-index:999;}
+.cycle-slideshow .pager .next{position:absolute; top:230px; right:0;  z-index:999;}
+
+#pager{position:absolute; bottom:10px; z-index:999; margin:0 auto; text-align:center; width:100%;}
+#pager span{color:#fff; opacity:0.6; text-align:center; width:30px; height:30px; font-size:46px; cursor:pointer;}
+#pager span.cycle-pager-active{color:#fff; opacity:1;}
+#pager2{position:absolute; bottom:10px; z-index:999; margin:0 auto; text-align:center; width:100%;}
+#pager2 span{color:#fff; opacity:0.6; text-align:center; width:30px; height:30px; font-size:46px; cursor:pointer;}
+#pager2 span.cycle-pager-active{color:#fff; opacity:1;}
+#pager3{position:absolute; bottom:10px; z-index:999; margin:0 auto; text-align:center; width:100%;}
+#pager3 span{color:#fff; opacity:0.6; text-align:center; width:30px; height:30px; font-size:46px; cursor:pointer;}
+#pager3 span.cycle-pager-active{color:#fff; opacity:1;}
+/*content_end*/
+.content_wrap .content_end{width:1148px !important; margin:0 auto;}
+.content_wrap .content_end img{width:100%;}
+.content_wrap .content_end .content{position:relative;margin:0 0 100px 0;}
+.content_wrap .content_end .content p{color: #2c87c8;font-size: 22px;margin:50px 0 30px;}
+.content_wrap .content_end .content .map_img{width:100%;}
+.content_wrap .content_end .content button{cursor:pointer;position: absolute;border:0px;bottom: 20px;right: 30px;width: 150px;height: 40px;background-color: #13121c;color: #fff;font-size: 12px;}
+/*footer*/
+.footer{width:100%;padding: 19px 0 17px;background-color: #2b2b2b;}
+.footer ul li{display:inline-block;margin-left:10px;}
+.footer .inner{max-width: 1840px;margin:0 auto;position:relative;color:#707070;font-size: 15px;}
+.footer .left{width:60%;padding:0px 40px 0;}
+.footer .left img{margin:0 15px 0;}
+.footer .right{padding:0 40px 0;width:38%;position:absolute;top: 0;right: 0;text-align:right;}
+.footer .right ul li {color:#707070;font-size: 15px; vertical-align:text-top;}
+.footer .right ul li.line{height:15px;border-left:1.5px solid #707070;}
+.footer .right ul li.hyundai a{color:#999;}
+.footer .right ul li.hyundai a:hover{color:#fff;}
+.footer .right ul li.ddp a{color:#999;}
+.footer .right ul li.ddp a:hover{color:#fff;}
+

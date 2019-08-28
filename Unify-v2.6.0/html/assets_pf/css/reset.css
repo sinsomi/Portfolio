@@ -1,0 +1,4 @@
+/*set_up*/
+div,ul,ol,li,dl,dd,dt,p,span,h3{list-style: none !important; padding:0; margin:0;}
+a{text-decoration:none !important;color:#000;}
+body,html{padding:0; margin:0;}
