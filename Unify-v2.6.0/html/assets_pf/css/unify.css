@@ -17,6 +17,9 @@
 @media(min-width:992px){.header_nav{}}
 @media(min-width:0){.temp_content_inner{padding-bottom: 5.71429rem !important;padding-top:4.28571rem !important;}}
 @media (min-width: 768px){.text_box{margin-bottom: 2.14286rem !important;width: 60% !important;}}
+@media (min-width: 0){.main_content_inner{padding-top: 3.57143rem !important;}}
+@media (min-width: 0){.pages{padding-top: 7.14286rem !important;}}
+@media (min-width: 768px){.page_item{flex: 0 0 30.333333%;max-width: 30.333333%;}}
 
 /*header*/
 .header{text-align: center;background-color:#f9fdf9;}
@@ -36,7 +39,7 @@
 .header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap{text-transform:uppercase;flex: 0 0 50%;max-width: 50%;}
 .header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap ul{flex-flow:column;}
 .header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap ul li{cursor:pointer;position:relative;display: block;font-weight: 400;color: #212529;border: 0;}
-.header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap ul li.sub_item:hover .sub_sub_item{visibility:visible;}
+.header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap ul li.sub_item:hover .sub_sub_item{background-color:#55555;visibility:visible;}
 .header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap ul li a{font-weight: 400;font-size:13px;}
 .header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap .sub_list .sub_item .sub_sub_item{cursor:pointer;border-top:2px solid #72c02c !important;top:-2px;position: absolute;z-index: 2;visibility: hidden;opacity: 0;background-color: #fff;opacity: 1 !important;left: 100%; }
 .header .header_inner .header_nav ul li.nav_item .HOME_sub .HOME_sub_inner .sub_list_wrap .sub_list .sub_item .col_2{columns: 2 !important;display: block !important;}
@@ -55,7 +58,7 @@
 .temp_content .temp_content_inner .text_box{margin:0 auto;}
 .temp_content .temp_content_inner .text_box .v{font-size: 3.21429rem !important;}
 .temp_content .temp_content_inner .text_box .num{color:#72c02c !important;font-size: 5rem !important;}
-.temp_content .temp_content_inner .text_box .theme{line-height: 1.4;color: #111 !important;font-weight: 600 !important;font-size: 3rem !important;}
+.temp_content .temp_content_inner .text_box .title{line-height: 1.4;color: #111 !important;font-weight: 600 !important;font-size: 3rem !important;}
 .temp_content .temp_content_inner .text_box p{line-height: 2 !important;font-size: 1.2857rem !important;}
 .temp_content .temp_content_inner .text_box p a{padding-bottom:5px;color:#72c02c !important;border-bottom:2px solid #72c02c;}
 .temp_content .temp_content_inner .text_box p a:hover{color:#28a745 !important;border-bottom:2px solid #28a745;}
@@ -65,7 +68,28 @@
 
 .temp_content .temp_content_inner .sns_box .twitter{text-align:center;flex: 0 0 25%;max-width: 25%;}
 
-
+/*Unify_Main*/
+.main_content{}
+.main_content .main_content_inner{}
+.main_content .main_content_inner .container .text_box{margin:0 auto;text-align:center;}
+.main_content .main_content_inner .container .text_box .title{font-weight:bold;font-size: 2.6rem !important;}
+.main_content .main_content_inner .container .text_box .des{font-size: 1.42857rem !important;}
+.main_content .main_content_inner .container .img_box{margin:0 auto;max-width: 870px;}
+.main_content .main_content_inner .container .img_box img{max-width: 100%;height: auto;}
+.main_content .main_content_inner .container_fluid{width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;box-sizing: border-box;
+}
+.main_content .main_content_inner .container_fluid .pages_wrap{}
+.main_content .main_content_inner .pages_wrap .pages{display: flex;flex-wrap: wrap;margin-left: -15px;
+    margin-right: -15px;box-sizing: border-box;}
+.main_content .main_content_inner .pages_wrap .pages .page_item{padding-right: 10px;
+    padding-left: 10px;}
+.main_content .main_content_inner .pages_wrap .pages .page_item a{}
+.main_content .main_content_inner .pages_wrap .pages .page_item a img{max-width: 100%;
+    height: auto;} 
 
 
 
