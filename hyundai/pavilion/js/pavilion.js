@@ -17,4 +17,8 @@ $(document).ready(function(){
 	$('#img').mouseleave(function(){
 		$('#img').css('border','0px');
 	});
+	$("#items > li > a").click(function() {
+		$(this).parent().addClass('active').siblings().removeClass('active');
+		return false;
+	});
 });

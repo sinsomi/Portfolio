@@ -33,12 +33,14 @@ a{text-decoration:none;}
 body,html{padding:0; margin:0;}
 .main_wrap{width:100%; margin:0;}
 /*nav*/
-.main_wrap .menu_box{background-color:#2f2f2f;top:0;right:0;height:100%; width:430px; position:absolute;position:fixed;display:block; z-index:10;}
-.main_wrap .menu_box ul li ul li{display:block; color:#777; font-size:24px; line-height:35px; margin:15px 5px 20px 60px;}
-.main_wrap .menu_box ul li#img{position: absolute;top: 49px;right: 73px;width: 40px;height: 38px;}
-.main_wrap .menu_box ul li#menu_text{margin:0;}
-.main_wrap .menu_box ul li ul li#one{margin:100px 5px 20px 60px;}
-.main_wrap .menu_box ul li ul li#four{color:#2c87c8;}
+.main_wrap .menu_box{background-color:#2f2f2f;top:0;right:0;height:100%; width:430px; position:absolute;position:fixed;display:block; z-index:100;}
+.main_wrap .menu_box ul li ul li{display:block; font-size:24px; line-height:35px; margin:15px 5px 20px 60px;}
+.main_wrap .menu_box ul li ul li a{color:#777;}
+.main_wrap .menu_box ul #img{position: absolute;top: 49px;right: 73px;width: 40px;height: 38px;}
+.main_wrap .menu_box ul #menu_text{margin:100px 5px 20px 0px;}
+.main_wrap .menu_box ul li #items li a#one{margin:100px 5px 20px 60px;}
+.main_wrap .menu_box ul li #items li a#five{color:#2c87c8;}
+.main_wrap .menu_box ul li #items li.active a{color:#2c87c8 !important;}
 /*main-frame*/
 .main_wrap .frame_wrap{width:100%; min-width:1200px; display:block;}
 .main_wrap .frame_wrap .frame_inner{padding:30px 40px 40px; position:relative;}
