@@ -6,6 +6,8 @@
 	<title>네이버 해피빈 :: 현대자동차</title>
 	<script src="../js/jquery.js"></script>
 	<script src="../js/happybean.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 </head>
 <body>
 	<div class="wrap">
@@ -143,6 +145,30 @@
 			<!--section5-->
 			<div class="section5">
 				<div class="section5_inner">
+					<div class="words">
+						<ul>
+							<li><a href="http://naver.com/#num01" target="_blank">정지          </a></li>
+							<li><a href="http://naver.com/#num03" target="_blank">안전사고      </a></li>
+							<li><a href="http://naver.com/#num04" target="_blank">시민의식      </a></li>
+							<li><a href="http://naver.com/#num05" target="_blank">보행자        </a></li>
+							<li><a href="http://naver.com/#num06" target="_blank">횡단보도      </a></li>
+							<li><a href="http://naver.com/#num07" target="_blank">응원          </a></li>
+							<li><a href="http://naver.com/#num08" target="_blank">정지선        </a></li>
+							<li><a href="http://naver.com/#num09" target="_blank">안전하게      </a></li>
+							<li><a href="http://naver.com/#num10" target="_blank">응원하다      </a></li>
+							<li><a href="http://naver.com/#num11" target="_blank">안전운전      </a></li>
+							<li><a href="http://naver.com/#num12" target="_blank">드라이브      </a></li>
+							<li><a href="http://naver.com/#num13" target="_blank">도전          </a></li>
+							<li><a href="http://naver.com/#num14" target="_blank">신호위반      </a></li>
+							<li><a href="http://naver.com/#num15" target="_blank">파이팅        </a></li>
+							<li><a href="http://naver.com/#num16" target="_blank">카컬링        </a></li>
+							<li><a href="http://naver.com/#num17" target="_blank">안전운전하세요</a></li>
+							<li><a href="http://naver.com/#num18" target="_blank">장애인        </a></li>
+							<li><a href="http://naver.com/#num19" target="_blank">열정          </a></li>
+							<li><a href="http://naver.com/#num20" target="_blank">착한운전      </a></li>
+							<li><a href="http://naver.com/#num02" target="_blank">한계          </a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<!--End section5-->
@@ -150,7 +176,19 @@
 			<!--section6-->
 			<div class="section6">
 				<div class="section6_inner">
-					<div class="swipe">
+					<!-- 클래스명은 변경하면 안 됨 -->
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution_img1.jpg"></div>
+							<div class="swiper-slide"><img src="https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution_img2.jpg"></div>
+							<div class="swiper-slide"><img src="https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution_img3.jpg"></div>
+							<div class="swiper-slide"><img src="https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution_img4.jpg"></div>
+						</div>
+						<!-- 버튼 -->
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+						<!-- 페이징 -->
+						<div class="swiper-pagination"></div>
 					</div>
 					<div class="donation_1">
 						<div class="title">
@@ -215,7 +253,7 @@
 				<div class="service">
 					서비스 안내
 				</div>
-				<div class="service_box">
+				<div class="service_box more">
 					<ul>
 						<li class="title">해피빈 안내</li>
 						<li class="des"><a href="#">해피빈 소개</a></li>
@@ -229,7 +267,9 @@
 						<li class="des bar"><a href="#">기업제휴 문의</a></li>
 						<li class="des bar"><a href="#">펀딩 개설 신청</a></li>
 					</ul>
-					<ul class="notice">
+				</div>
+				<div class="notice">
+					<ul>
 						<li class="title">공지사항</li>
 						<li class="des"><a href="https://happybean.naver.com/introduction/NoticeView.nhn?artclno=123463013166">해피빈 공감가게 &amp; 가볼까 서비스가 새롭게 개편되었습니다.</a></li>
 					</ul>

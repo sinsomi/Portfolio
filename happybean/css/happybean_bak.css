@@ -70,15 +70,37 @@ a:hover,a:active,a:focus{text-decoration:underline;}
 .hyundai_wrap .section3{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec3.jpg") center top no-repeat;background-color: #083d79;}
 .hyundai_wrap .section3 .section3_inner{width: 1250px;height: 562px;margin: 0 auto;position: relative;}
 
-/*section04*/
+/*section4*/
 .hyundai_wrap .section4{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec4.jpg") center top no-repeat;background-color: #fff;}
 .hyundai_wrap .section4 .section4_inner{width: 1250px;height: 1778px;margin: 0 auto;position: relative;}
 
-/*section05*/
+/*section5*/
 .hyundai_wrap .section5{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec5.jpg") center top no-repeat;background-color: #2fa0c1;}
 .hyundai_wrap .section5 .section5_inner{width: 1250px;height: 1002px;margin: 0 auto;position: relative;}
+.hyundai_wrap .section5 .section5_inner .words{    width: 380px;
+    height: 68px;
+    overflow: hidden;
+    position: absolute;
+    left: 331px;
+    top: 697px;}
+.hyundai_wrap .section5 .section5_inner .words ul{width: 380px;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;top: 0px;}
+.hyundai_wrap .section5 .section5_inner .words ul li a{vertical-align:top;}
+.hyundai_wrap .section5 .section5_inner .words ul li a{    display: block;
+    width: 380px;
+    height: 68px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 36px;
+    line-height: 68px;
+    color: #282828;
+    text-decoration: none;
+    letter-spacing: -0.025em;
+    font-weight: 500;}
 
-/*section06*/
+/*section6*/
 .hyundai_wrap .section6{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution.jpg") top center no-repeat #000;}
 .hyundai_wrap .section6 .section6_inner{width: 1000px;height: 821px;margin: 0 auto;position: relative;}
 .hyundai_wrap .section6 .section6_inner .donation_1{width: 500px;height: 92px;line-height: 92px;position: absolute;left: 50%;margin-left: -250px;top: 598px;color: #888;letter-spacing: -0.1em;text-align: center;}
@@ -88,8 +110,17 @@ a:hover,a:active,a:focus{text-decoration:underline;}
 .hyundai_wrap .section6 .section6_inner .donation_2{width: 100%;font-size: 20px;position: absolute;left: 313px;top: 706px;color: #c7c7c7;letter-spacing: -0.025em;text-align: center;}
 .hyundai_wrap .section6 .section6_inner .donation_2 span{float:left;}
 .hyundai_wrap .section6 .section6_inner .donation_2 .btn{float:left;margin-right:2px;margin-left:6px;}
+/*section6_swiper*/
+.swiper-container {position: initial !important;width:550px;height:380px;border:0PX;padding-top: 175px !important;}
+.swiper-slide {position: initial !important;text-align:center;display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */align-items:center; /* 위아래 기준 중앙정렬 */justify-content:center; /* 좌우 기준 중앙정렬 */}
+.swiper-button-prev{background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution_control.png") !important;left: 20px;background-position: left top !important;background-repeat: no-repeat !important;width: 27px !important;height: 52px !important;position: absolute !important;left:160px !important;top: 353px !important;}
+.swiper-button-next{background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/contribution_control.png") !important;left:;background-position: right top !important;background-repeat: no-repeat !important;background-repeat: no-repeat !important;width: 27px !important;height: 52px !important;position: absolute !important;right: 160px !important;top: 353px !important;}
+.swiper-pagination-bullet{width:13px !important;height:13px !important;background:#fff !important;opacity:1 !important;}
+.swiper-pagination-bullet-active{background:#89b524 !important;}
+.swiper-container-horizontal>.swiper-pagination-bullets{bottom:267px !important;}
 
-/*section07*/
+
+/*section7*/
 .hyundai_wrap .section7{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec6.jpg") center top no-repeat;background-color: #fa564a;}
 .hyundai_wrap .section7 .section7_inner{width: 1250px;height: 428px;margin: 0 auto;position: relative;}
 
@@ -105,31 +136,24 @@ a:hover,a:active,a:focus{text-decoration:underline;}
 .footer_wrap{overflow: hidden;width: 100%;margin: 0 auto;padding-bottom: 20px;text-align: left;background: #fff;position: relative;padding-top: 52px;border-top: 1px solid #e0e0e0;font-family: NanumBarunGothic,Sans-serif;font-size: 14px;line-height: 19px;color: #202020;}
 .footer_wrap::before{position: absolute;top: 51px;right: 0;bottom: 0;left: 0;border-top: 1px solid #e3e3e3;background-color: #f6f6f6;content: '';}
 .footer_wrap .footer{position: relative;width: 1140px;margin: -52px auto 0px;padding: 16px 0px 15px;}
-.footer_wrap .footer .service{position: relative;padding-right: 20px;width:73px;font-family: NanumBarunGothic, sans-serif;font-size: 15px;font-weight: 700;color: inherit;}
+.footer_wrap .footer .service{position: relative;padding-right: 20px;width:73px;font-family: NanumBarunGothic, sans-serif;font-size: 15px;font-weight: 700;color: inherit;cursor:pointer;}
+.footer_wrap .footer .service_box.more{display:block !important;}
+.footer_wrap .footer .service_box.close{display:none !important;}
 .footer_wrap .footer .service::after{width: 12px;height: 7px;position: absolute;top: 50%;right: 0px;margin-top: -4px;content: "";background-position: -20px -40px;background-image: linear-gradient(transparent, transparent), url("https://ssl.pstatic.net/happyimg2/img/sp_legacy_hb_svg_dba11abd.svg");background-size: 105px 73px;background-position: -40px -40px;}
 .footer_wrap .footer .service_box{margin: 39px 0 18px;}
 .footer_wrap .footer .service_box ul{position: relative;padding: 0 94px 0 134px;font-size: 0;line-height: 0;}
-.footer_wrap .footer .service_box ul.notice{position: absolute;
-    top: 3px;
-    left: 133px;
-    font-size: 15px;}
-.footer_wrap .footer .service_box ul.notice .title{font-size:15px !important;}
-.footer_wrap .footer .service_box ul.notice li.des{margin-top: 13px;font-size:15px !important;}
-.footer_wrap .footer .service_box ul.notice a{
- line-height: 1.36;color: #828282;margin-left: -62px;margin-left:-65px;}
+.footer_wrap .footer .notice{position: absolute;top: 3px;left: 133px;font-size: 15px;line-height: 1.36;}
+.footer_wrap .footer .notice ul li{display:inline-block;}
+.footer_wrap .footer .notice .title{font-size:15px !important;font-weight: 700;}
+.footer_wrap .footer .notice li.des{margin-top: 13px;font-size:15px !important;}
+.footer_wrap .footer .notice a{margin-left: 3px; line-height: 1.36;color: #828282;}
 .footer_wrap .footer .service_box ul li{display: inline-block;font-size: 14px;line-height: 1.36;color: #828282;}
 .footer_wrap .footer .service_box ul .title{color:#000;position: absolute;top:12px;left: 0;font-size: 14px;line-height: 1.36;font-weight: 700;}
 .footer_wrap .footer .service_box ul .des{display: inline-block;margin-top: 12px;}
 .footer_wrap .footer .service_box ul .des a{font-size: 14px;line-height: 1.36;color: #828282;}
 .footer_wrap .footer .service_box ul .bar::before{display: inline-block;width: 1px;height: 14px;margin: 2px 12px 0 11px;background-color: #d7d7d7;font-size: 0;line-height: 0;vertical-align: top;content: '';}
-.footer_wrap .info_wrap{position: relative;
-    padding: 26px 0 42px;
-    border-top: 1px solid #f0f0f0;
-    background-color: #fff;
-    font-size: 14px;
-    color: #828282;}
-.footer_wrap .info_wrap .info{    width: 1140px;
-    margin: 0 auto;}
+.footer_wrap .info_wrap{position: relative;padding: 26px 0 42px;border-top: 1px solid #f0f0f0;background-color: #fff;font-size: 14px;color: #828282;}
+.footer_wrap .info_wrap .info{width: 1140px;margin: 0 auto;}
 .footer_wrap .info_wrap .info ul li{display:inline-block;}
 .footer_wrap .info_wrap .info ul li a{color: #828282;}
 .footer_wrap .info_wrap .info ul.info_item{margin-top:18px;}
