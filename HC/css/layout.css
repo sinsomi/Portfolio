@@ -23,24 +23,17 @@ h3 span{width:38px;height:3px;background-color:#fd6e0e;display:inline-block;posi
 /*반응형*/
 /* header_반응형 */
 @media(max-width:1600px){
-	.visual .visual_a .copy .inner{width:60% !important;}
+	.visual .visual_a .copy .inner{width:57.80% !important;margin-top: 35.78% !important;}
 }
 @media(max-width:1200px){
 	header .inner{width:85% !important;}
-	.visual .visual_a .copy .inner{width:40% !important;}
-	.visual .visual_a .copy .inner p.text01{font-size:50px !important;}
-	.visual .visual_a .copy .inner p.text02{font-size:60px !important;}
-	.visual .visual_a .copy .inner p.text03{font-size:20px !important;}
+	.visual .visual_a .copy{height: auto !important;}
 }
 @media(max-width:1024px){
-	header .inner nav{display:none !important;}
-	header .inner .nav_off{display:block !important;}
-	.visual .visual_a .copy .inner p.text02{font-size:45px !important;}
+
 }
 @media(max-width:640px){
-	.visual .visual_a .copy .inner p.text01{font-size:30px !important;}
-	.visual .visual_a .copy .inner p.text02{font-size:30px !important;}
-	.visual .visual_a .copy .inner p.text03{display:none;}
+
 }
 
 /* header and visual */
