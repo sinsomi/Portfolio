@@ -26,33 +26,6 @@
     <script src="../js/html5shiv.min.js"></script>
     <script src="../js/respond.js"></script>
     <![endif]-->
-	<script type="text/javascript">
-	        function initialize() {
-	            var latlng = new google.maps.LatLng(37.520927, 126.918648);
-	            var myOptions = {
-	                zoom: 16,
-	                center: latlng,
-	                mapTypeId: google.maps.MapTypeId.ROADMAP};
-	            var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-	            var contentString = '<div id="content">'+
-	                                    '<div id="siteNotice">'+
-	                                    '</div>'+
-	                                    '<div id="bodyContent">'+
-	                                    ' HC INVESTMENT '+
-	                                    '</div>'+
-	                                    '</div>';
-	            var infowindow = new google.maps.InfoWindow({
-	                content: contentString
-	            });
-	
-	            var marker = new google.maps.Marker({
-	                position: latlng,
-	                title:"Elrois",
-	                map: map
-	            });
-	            infowindow.open(map,marker);
-	        }
-	    </script>
 </head>
 <body>
 <section class="wrap">
