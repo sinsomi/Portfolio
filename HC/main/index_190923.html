@@ -16,43 +16,6 @@
     <link rel="stylesheet" href="../css/reset.css">
 	<link rel="stylesheet" href="../css/layout.css">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Roboto:100,300,400,500,700" rel="stylesheet">
-	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyBGYyHr7lNU7eiegFb0DfLrNFhlvlpxWUM"></script>
-	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
-	<script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js"></script>
-	<script type="text/javascript" src="../js/jquery.singlePageNav.js"></script>
-    <script type="text/javascript" src="../js/bxslider.js"></script>
-	<script type="text/javascript" src="../js/hc_main.js"></script>
-    <!--[if lt IE 9]>
-    <script src="../js/html5shiv.min.js"></script>
-    <script src="../js/respond.js"></script>
-    <![endif]-->
-	<script type="text/javascript">
-	        function initialize() {
-	            var latlng = new google.maps.LatLng(37.520927, 126.918648);
-	            var myOptions = {
-	                zoom: 16,
-	                center: latlng,
-	                mapTypeId: google.maps.MapTypeId.ROADMAP};
-	            var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-	            var contentString = '<div id="content">'+
-	                                    '<div id="siteNotice">'+
-	                                    '</div>'+
-	                                    '<div id="bodyContent">'+
-	                                    ' HC INVESTMENT '+
-	                                    '</div>'+
-	                                    '</div>';
-	            var infowindow = new google.maps.InfoWindow({
-	                content: contentString
-	            });
-	
-	            var marker = new google.maps.Marker({
-	                position: latlng,
-	                title:"Elrois",
-	                map: map
-	            });
-	            infowindow.open(map,marker);
-	        }
-	</script>
 </head>
 <body>
 <section class="wrap">
@@ -541,8 +504,44 @@
 	<!-- <a class="scroll-top">
 	            <i class="fa fa-angle-double-up"><img src="../img/btn_top.png" alt="맨위로이동" /></i>
 	        </a> -->
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyBGYyHr7lNU7eiegFb0DfLrNFhlvlpxWUM"></script>
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="../js/jquery.singlePageNav.js"></script>
+<script type="text/javascript" src="../js/bxslider.js"></script>
+<script type="text/javascript" src="../js/hc_main.js"></script>
+    <!--[if lt IE 9]>
+    <script src="../js/html5shiv.min.js"></script>
+    <script src="../js/respond.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+	        function initialize() {
+	            var latlng = new google.maps.LatLng(37.520927, 126.918648);
+	            var myOptions = {
+	                zoom: 16,
+	                center: latlng,
+	                mapTypeId: google.maps.MapTypeId.ROADMAP};
+	            var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	            var contentString = '<div id="content">'+
+	                                    '<div id="siteNotice">'+
+	                                    '</div>'+
+	                                    '<div id="bodyContent">'+
+	                                    ' HC INVESTMENT '+
+	                                    '</div>'+
+	                                    '</div>';
+	            var infowindow = new google.maps.InfoWindow({
+	                content: contentString
+	            });
 	
-	<script type="text/javascript"> 
+	            var marker = new google.maps.Marker({
+	                position: latlng,
+	                title:"Elrois",
+	                map: map
+	            });
+	            infowindow.open(map,marker);
+	        }
+</script>	
+<script type="text/javascript"> 
 	$(document).ready(function(){
 		//  Onepage Nav Elements
 		$('.singlepage-nav').singlePageNav({

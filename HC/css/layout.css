@@ -30,10 +30,15 @@ h3 span{width:38px;height:3px;background-color:#fd6e0e;display:inline-block;posi
 	.visual .visual_a .copy{height: auto !important;}
 }
 @media(max-width:1024px){
-
+	header .inner nav{display:none !important;}
+	header .inner .nav_off{display:block !important;}
+	.visual .visual_a .copy .inner p.text02{font-size:45px !important;}
 }
-@media(max-width:640px){
-
+@media(max-width:768px){
+	.visual .visual_a .copy .inner{margin-top: 50% !important;text-align:center !important;}
+	.visual .visual_a .copy .inner p.text01{font-size:30px !important;}
+	.visual .visual_a .copy .inner p.text02{font-size:30px !important;}
+	.visual .visual_a .copy .inner p.text03{display:none;}
 }
 
 /* header and visual */
