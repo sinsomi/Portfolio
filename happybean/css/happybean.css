@@ -76,9 +76,7 @@ a:hover,a:active,a:focus{text-decoration:underline;}
 /*section4*/
 .hyundai_wrap .section4{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec4.jpg") center top no-repeat;background-color: #fff;}
 .hyundai_wrap .section4 .section4_inner{width: 1250px;height: 1778px;margin: 0 auto;position: relative;}
-.movie_box{width: 696px;
-    height: 368px;
-    position: absolute;
+.hyundai_wrap .section4 .section4_inner .movie_box{width: 696px;height: 368px;position: absolute;
     left: 276px;
     top: 323px;}
 .hyundai_wrap .section4 .section4_inner .hand {position: absolute;right: 430px;bottom: 70px;display: inline-block;width: 72px;height: 72px;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/icon_hand.png") 0 0 no-repeat;}

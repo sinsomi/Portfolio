@@ -67,7 +67,7 @@ $(document).ready(function(){
 	});
 	/*btn_prev 맨 첫페이지에서 사라지기*/
 	/*
-	if($(".index").hasClass("last")) {
+	if($("index").attr("class")$(".index").hasClass("first")) {
 		$(".btn_prev").css("visibility", "hidden");
 	}else{
 		$(".btn_prev").css("visibility","visible");

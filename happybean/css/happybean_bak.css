@@ -9,6 +9,9 @@ a:link { color: #000; text-decoration: none;}
 a:visited { color: black; text-decoration: none;}
 a:hover,a:active,a:focus{text-decoration:underline;}
 
+/*banner*/
+.wrap .banner{top:300px;width: 125px;height: 129px;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/wing.png") 0 0 no-repeat;position: absolute;left: 50%;margin-left: 500px;z-index: 1;}
+
 /*header*/
 .wrap{}
 .wrap .header_wrap{border-bottom: 1px solid #f0f0f0;background-color: #fff;font-family: NanumBarunGothic,Sans-serif;font-size: 14px;line-height: 19px;text-align: right;color: #202020;}
@@ -62,7 +65,7 @@ a:hover,a:active,a:focus{text-decoration:underline;}
 .hyundai_wrap .section2 .controler .numbers {width: 8px;position: absolute;left: 50%;top: 60px;margin-left: -4px;}
 .hyundai_wrap .section2 .controler .numbers span{display: block;width: 8px;height: 8px;margin-bottom: 10px;border-radius: 20px;background-color: #888888;transition: all 0.5s linear;}
 .hyundai_wrap .section2 .controler .numbers span.on{background-color: #37b0e7 !important;transform: scale(1.6, 1.6) !important;}
-.hyundai_wrap .section2 .controler .btn_prev {display:block;width: 48px;height: 35px;position: absolute;left: 50%;top: 20px;margin-left: -24px;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec2_6_prev.png") center center no-repeat;}
+.hyundai_wrap .section2 .controler .btn_prev {visibility:hidden;display:block;width: 48px;height: 35px;position: absolute;left: 50%;top: 20px;margin-left: -24px;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec2_6_prev.png") center center no-repeat;}
 .hyundai_wrap .section2 .controler .btn_next {width: 48px;height: 35px;position: absolute;left: 50%;bottom: 20px;margin-left: -24px;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec2_6_next.png") center center no-repeat;}
 
 
@@ -73,11 +76,28 @@ a:hover,a:active,a:focus{text-decoration:underline;}
 /*section4*/
 .hyundai_wrap .section4{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec4.jpg") center top no-repeat;background-color: #fff;}
 .hyundai_wrap .section4 .section4_inner{width: 1250px;height: 1778px;margin: 0 auto;position: relative;}
+.hyundai_wrap .section4 .section4_inner .movie_box{width: 696px;height: 368px;position: absolute;
+    left: 276px;
+    top: 323px;}
+.hyundai_wrap .section4 .section4_inner .hand {position: absolute;right: 430px;bottom: 70px;display: inline-block;width: 72px;height: 72px;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/icon_hand.png") 0 0 no-repeat;}
+.hyundai_wrap .section4 .section4_inner .hand{-webkit-animation:blink 0.5s ease-in-out infinite alternate;-moz-animation:blink 0.5s ease-in-out infinite alternate;animation:blink 0.5s ease-in-out infinite alternate;}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
 
 /*section5*/
 .hyundai_wrap .section5{width: 100%;background: url("https://ssl.pstatic.net/happyimg2/img3/event/campaign/201801/hyundai/sec5.jpg") center top no-repeat;background-color: #2fa0c1;}
 .hyundai_wrap .section5 .section5_inner{width: 1250px;height: 1002px;margin: 0 auto;position: relative;}
-.hyundai_wrap .section5 .section5_inner .words{    width: 380px;
+.hyundai_wrap .section5 .section5_inner .words{width: 380px;
     height: 68px;
     overflow: hidden;
     position: absolute;
