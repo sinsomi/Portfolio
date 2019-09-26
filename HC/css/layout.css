@@ -218,23 +218,55 @@ header .inner .nav_on .nav_icon .center{margin: 5px auto;}
 	section.information .inner .title_area{padding-bottom:2.62% 0 !important;}
 	section.information .inner .part01 .left{margin-top: 5.45% !important;}
 	section.information .inner .part01 .left h3{padding-top:4.54% !important;}
+	section.information .inner .part01 .left h3 span{width:21.71% !important;}
 	section.information .inner .part01 .left p.sub_text{margin-top: 5.45% !important;}
 	section.information .inner .part01 .left table{width:89.09% !important;margin-top: 5.45% !important;}
 	section.information .inner .part01 .right{background-size: 100% 65% !important;margin-top: 5.45% !important;}
 	section.information .part02 .right h3{margin-top: 6.83% !important;margin-left: 4.72% !important;}
-	h3 span{width: 38.77% !important;}
+	section.information .part02 .right h3 span{width: 38.77% !important;}
 	section.information .part02 .right table{margin-left: 2.1% !important;margin-top: 2.1% !important;}
 	section.information .part02 .right table td{padding: 1.57% 0 !important;}
 	section.information .part02 .right table td p.text02{margin-top: 1.23% !important;}
 	section.information .part02 .right table td.ico img{width:45.45% !important;}
-
+	section.information .part03 h3.lineon{padding-top:2.27% !important;}
+	section.information .part03 p.text01{margin-top: 1.81% !important;}
+	.mt50{margin-top:3.64% !important;}
+	section.information .part03 h4{padding-left: 0.9% !important;}
+	section.information .part03 h3 span{width:25.85% !important;}
+	section.information .part03 .box01 ul{margin-top:9.43% !important;width:90% !important;}
+	section.information .part03 .box01 li{border-bottom:0px !important;}
+	section.information .part03 .box01 li.li_left{border-left: 1px solid #ddd;}
+	section.information .part03 .box01 li.li_bottom{border-bottom: 1px solid #ddd !important;}
+	section.information .part03 .box01 li.li_left_bottom{border-left: 1px solid #ddd;border-bottom: 1px solid #ddd !important;}
+	section.information .part03 .box02 li{width:33% !important;}
+	section.information .part03 p.h4_sub_text{margin: 1.36% 0 1.81% 0 !important;}
+	section.information .part03 .box03 .process{width: 37% !important;height: 8.93% !important;}
+	section.information .part03 .box03 .process4{margin-left: 0 !important;}
+	/*portpolio*/
+	section.portpolio{padding: 3.75% 0 !important;background-size: 100% 100% !important;height: 100% !important;}
+	section.portpolio .inner{width:57.80% !important;margin-top: 5.82% !important;}
+	/*notice*/
+	section.notice{padding:9.13% 0 !important;}
+	section.notice .inner{width:57.80% !important;}
+	.paging{margin-top: 3.04% !important;}
+	/*location*/
+	section.location{padding: 3.6% !important;}
+	section.location .inner{width:57.80% !important;}
+	section.location .map{width:100% !important;}
+	/*footer*/
+	footer{padding: 2.44% 0 2.6% 0 !important;}
+	footer .inner{width:57.80% !important;}
 
 }
 @media(max-width:1024px){
-	
+	section.information .part03 .box01 ul{width:100% !important;}
+	section.information .part03 .box01 li{width:40% !important;}
+	section.information .part03 .box03 .process{width: 65% !important;}
+	section.information .part03 .box03 .process4{margin-left: 0 !important;}
 }
 @media(max-width:768px){
-
+	section.information .part03 .box01 li{width:80% !important;}
+	section.information .part03 .box02 li{width:80% !important;}
 }
 
 
