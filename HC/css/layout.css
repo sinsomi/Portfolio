@@ -265,8 +265,12 @@ header .inner .nav_on .nav_icon .center{margin: 5px auto;}
 	section.information .part03 .box03 .process4{margin-left: 0 !important;}
 }
 @media(max-width:768px){
+	h3.roboto{font-size: 34px !important;}
+	section.about .part01 .inner .left p{font-size: 12px !important;}
+	section.about .part02 .inner td{font-size: 11px !important;}
 	section.information .part03 .box01 li{width:80% !important;}
 	section.information .part03 .box02 li{width:80% !important;}
+
 }
 
 
