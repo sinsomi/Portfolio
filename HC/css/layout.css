@@ -215,7 +215,7 @@ header .inner .nav_on .nav_icon .center{margin: 5px auto;}
 	section.about .part04 .inner li{margin-left: 5.76% !important;width:44.23% !important;}
 	section.about .part04 .inner li img{width:100% !important;}
 	/*information*/
-	section.information .inner{width:57.80% !important;padding:2.62% 0 !important;}
+	section.information .inner{width:57.80% !important;}
 	section.information .inner .title_area{padding-bottom:2.62% 0 !important;}
 	section.information .inner .part01 .left{margin-top: 5.45% !important;}
 	section.information .inner .part01 .left h3{padding-top:4.54% !important;}
@@ -233,9 +233,9 @@ header .inner .nav_on .nav_icon .center{margin: 5px auto;}
 	section.information .part03 h4{padding-left: 0.9% !important;}
 	section.information .part03 .box01 ul{margin-top:9.43% !important;width:90% !important;}
 	section.information .part03 .box01 li{border-bottom:0px !important;}
-	section.information .part03 .box01 li.li_left{border-left: 1px solid #ddd;}
-	section.information .part03 .box01 li.li_bottom{border-bottom: 1px solid #ddd !important;}
-	section.information .part03 .box01 li.li_left_bottom{border-left: 1px solid #ddd;border-bottom: 1px solid #ddd !important;}
+	section.information .part03 .box01 li.item3{border-left: 1px solid #ddd;}
+	section.information .part03 .box01 li.item4{border-bottom: 1px solid #ddd !important;}
+	section.information .part03 .box01 li.item5{border-left: 1px solid #ddd;border-bottom: 1px solid #ddd !important;}
 	section.information .part03 .box02 li{width:33% !important;}
 	section.information .part03 .box03 .process{width: 37% !important;height: 8.93% !important;}
 	section.information .part03 .box03 .process4{margin-left: 0 !important;}
@@ -297,12 +297,17 @@ header .inner .nav_on .nav_icon .center{margin: 5px auto;}
 	section.information .part03 .box01{margin: 0 auto !important;}
 	section.information .part03 .box01 ul{width: 84% !important; margin-left: auto !important;}
 	section.information .part03 .box01 li{width:80% !important;}
-	section.information .part03 .box02 li{width:80% !important;}
+	section.information .part03 .box01 li.item2{border-left: 1px solid #ddd;}
+	section.information .part03 .box01 li.item4{border-left: 1px solid #ddd;border-bottom: 0px !important;}
 	section.information .part03 .box02 ul{width: 84% !important; margin-left: auto !important;}
+	section.information .part03 .box02 li{width:80% !important;}
+	section.information .part03 .box02 li.step2{border-top: 0px !important;border-bottom: 0px !important;border-left: 1px solid #ddd;}
+	section.information .part03 .box02 li.step3{border-left: 1px solid #ddd;}
 	section.information .part03 p.h4_sub_text{font-size: 12px !important;}
 	section.information .part03 .box03{margin: auto !important;}
 	section.information .part03 .box03 .process{margin: 0 auto !important;float: none !important;padding-bottom: 30px !important;}
-	section.information .part03 .box03 .process4_m{margin: 0 auto !important;}
+	section.information .part03 .box03 process2_m{border-left: 1px solid #ddd !important;}
+	section.information .part03 .box03 .process4_m{margin: 0 auto !important;border-left: 1px solid #ddd;border-bottom: 0px !important;}
 	section.information .part03 .box03 span.arrow{display: block !important;margin: 30px 0 !important;float: none !important;text-align:center !important;}
 	section.information .part03 .box03 span.arrow img{transform:rotate(90deg);}
 	/*portpolio*/
