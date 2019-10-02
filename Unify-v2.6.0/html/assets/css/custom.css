@@ -1,9 +1,23 @@
 /* Add here all your css styles (customizations) */
-
+ul,li{list-sytle:none;list-style-type:none;padding-left: 0px !important;}
 .spec{width: 100% !important;}
-.slogan{margin-bottom:3.14286rem !important;}
 .no_hover:hover{color:#000 !important;}
 .pf_des{height:230px !important;}
-
-
+.u-header--sticky-top{position: sticky !important;}
+.nav-sm{}
+.g-bg-black-opacity-0_3{background-color: #ff8787 !important;}
+.g-bg-black-opacity-0_8{background-color: #ff8787 !important; opacity:0.8;}
+.g-font-size-default {font-size: 1.5rem !important;text-align: center;}
+.myself{background-color: #ff7676 !important;}
+.myname{color: #555 !important;}
+th{margin-left: 20px;min-width: 60px;}
+td{min-width: 240px;}
+.sub_des{font-size: 1.1rem !important;float:left;text-align:left;}
+.hGraph{text-align:left;margin-bottom: 50px;}
+.hGraph .gBar{ position:relative; display:inline-block; height:40px; background:#ff7676;}
+.hGraph .gBar span{ position:absolute; width:30px; line-height:20px; top:0; right:-50px; color:#fff;font-size: 1.23rem !important;top: 20%;}
+.js-slide .g-px-15{width: 570px !important;}
+.pf_item{margin-bottom: 20px !important;}
+.cover_wrap{position: relative;}
+.cover{width:100%;height: 100%;background-color: red;position: absolute;opacity: 0.2;}
 

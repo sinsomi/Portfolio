@@ -68,21 +68,21 @@ h1, h2, h3, h4, h5, h6 {
 ------------------------------------*/
 ::-moz-selection {
   color: #fff;
-  background-color: #a5c33c;
+  background-color: #ff7676;
 }
 
 ::selection {
   color: #fff;
-  background-color: #a5c33c;
+  background-color: ##ff7676;
 }
 
 .g-bg-primary ::-moz-selection {
-  color: #a5c33c;
+  color: #ff7676;
   background-color: #fff;
 }
 
 .g-bg-primary ::selection {
-  color: #a5c33c;
+  color: #ff7676;
   background-color: #fff;
 }
 
@@ -128,7 +128,7 @@ hr {
 .u-go-to-v1:hover, .u-go-to-v1:focus:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #a5c33c;
+  background-color: #ff7676;
 }
 
 .u-go-to-v1:focus {
@@ -341,7 +341,7 @@ hr {
 }
 
 .js-header-change-moment.g-bg-primary--shift {
-  background-color: #a5c33c;
+  background-color: #ff7676;
 }
 
 .js-header-change-moment.g-bg-primary-semi-transparent--shift {
@@ -391,7 +391,7 @@ hr {
 .u-header__section--light--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .active > .nav-link,
 .u-header__section--light--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.open,
 .u-header__section--light--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.active {
-  color: #a5c33c;
+  color: #ff7676;
 }
 
 .u-header__section--light .navbar-toggler,
@@ -822,7 +822,7 @@ hr {
 /* Button Primary */
 .u-btn-primary {
   color: #fff;
-  background-color: #a5c33c;
+  background-color: #ff7676;
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
@@ -835,8 +835,8 @@ hr {
 }
 
 .u-btn-primary.g-btn-hover-reset:hover, .u-btn-primary.g-btn-hover-reset.active {
-  background-color: #a5c33c;
-  border-color: #a5c33c;
+  background-color: #ff7676;
+  border-color: #ff7676;
 }
 
 .u-btn-primary.u-btn-hover-v1-1 {
@@ -848,7 +848,7 @@ hr {
 }
 
 .u-btn-primary.u-btn-hover-v1-1:hover {
-  background-color: #a5c33c;
+  background-color: #ff7676;
   overflow: hidden;
 }
 
@@ -861,7 +861,7 @@ hr {
 }
 
 .u-btn-primary.u-btn-hover-v1-2:hover {
-  background-color: #a5c33c;
+  background-color: #ff7676;
   overflow: hidden;
 }
 
@@ -874,7 +874,7 @@ hr {
 }
 
 .u-btn-primary.u-btn-hover-v1-3:hover {
-  background-color: #a5c33c;
+  background-color: #ff7676;
   overflow: hidden;
 }
 
@@ -887,7 +887,7 @@ hr {
 }
 
 .u-btn-primary.u-btn-hover-v1-4:hover {
-  background-color: #a5c33c;
+  background-color: #ff7676;
   overflow: hidden;
 }
 
@@ -900,7 +900,7 @@ hr {
 }
 
 .u-btn-primary.u-btn-hover-v2-1:hover {
-  background-color: #a5c33c;
+  background-color: #ff7676;
   overflow: hidden;
 }
 
@@ -913,7 +913,7 @@ hr {
 }
 
 .u-btn-primary.u-btn-hover-v2-2:hover {
-  background-color: #a5c33c;
+  background-color: #ff7676;
   overflow: hidden;
 }
 
@@ -5241,8 +5241,8 @@ hr {
 }
 
 .u-carousel-indicators-v29 li.slick-active {
-  color: #a5c33c;
-  border-top-color: #a5c33c;
+  color: #ff7676;
+  border-top-color: #ff7676;
 }
 
 .u-carousel-indicators-v29 .u-dot-title {
@@ -31756,7 +31756,7 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .u-header .active .nav-link {
-  color: #a5c33c !important;
+  color: #777 !important;
 }
 
 .u-carousel-indicators-v6::before {
@@ -31768,11 +31768,11 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .u-carousel-indicators-v6 li.slick-active {
-  color: #a5c33c;
+  color: #ff7676;
 }
 
 .u-carousel-indicators-v6 li.slick-active span {
-  border-color: #a5c33c;
+  border-color: #ff7676;
 }
 
 .u-carousel-indicators-v6 span {
@@ -31788,8 +31788,8 @@ pre[class*="language-"] .toolbar-item a {
 }
 
 .u-carousel-indicators-v29 li.slick-active {
-  color: #a5c33c;
-  border-top-color: #a5c33c;
+  color: #ff7676;
+  border-top-color: #ff7676;
 }
 
 @media (min-width: 768px) {
