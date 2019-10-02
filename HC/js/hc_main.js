@@ -11,26 +11,15 @@
                 }
             });
 			/*메뉴_mobile버전*/
-			 $(".menu>a").click(function(){
-            var submenu = $(this).next("ul");
- 
-            // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
-            if( submenu.is(":visible") ){
-                submenu.slideUp();
-            }else{
-                submenu.slideDown();
-            }
-        });
-
-			/*
-			$(".nav_off").click(function(){
-				$(this).addClass("nav_on").removeClass("nav_off");
-				$(".nav_item").fadeIn();
+			$(".menu>a").click(function(){
+				var submenu = $(this).next("ul");
+				// submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+				if( submenu.is(":visible") ){
+					submenu.slideUp();
+				}else{
+					submenu.slideDown();
+				}
 			});
-			$(".nav_on").click(function(){
-				$(this).addClass("nav_off").removeClass("nav_on");
-				$(".nav_item").fadeOut();
-			}); */
         });
 
 
