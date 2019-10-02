@@ -19,10 +19,12 @@ td{min-width: 240px;}
 .js-slide .g-px-15{width: 570px !important;}
 .pf_item{margin-bottom: 20px !important;}
 .cover_wrap{position: relative;}
-.cover{width:100%;height: 100%;background-color: #222;position: absolute;opacity: 0;}
-.cover ul{position: relative;}
-.cover ul.pcm{}
+.cover{width: 100%;height: 100%;background-color: #222;position: absolute;opacity: 0;}
+.cover ul{position: relative;width: 200px;height: 200px;margin: 200px 230px;}
+.cover ul.pcm{margin: 200px 210px;}
+.cover ul.on_pc{margin: 200px 260px;}
 .cover ul li{margin: 0 auto;text-align: center;float:left;margin-right: 20px;color: #ff7676;}
 .cover ul li a{}
 .cover ul li a img{}
 .pf_item:hover .cover{opacity:0.8;}
+
