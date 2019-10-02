@@ -32,32 +32,4 @@
             	alert("complete1");
             }*/
 
-		/*지도*/
-        function initialize() {
-            var latlng = new google.maps.LatLng(37.521231,126.9161173);
-            var latlng1 = new google.maps.LatLng(37.521231,126.9161173);
-            var myOptions = {
-                zoom: 16,
-                center: latlng1,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-            var contentString = '<div id="content">'+
-                                    '<div id="siteNotice">'+
-                                    '</div>'+
-                                    '<div id="bodyContent">'+
-                                    ' HC INVESTMENT '+
-                                    '</div>'+
-                                    '</div>';
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-
-            var marker = new google.maps.Marker({
-                position: latlng,
-                title:"Elrois",
-                map: map
-            });
-            infowindow.open(map,marker);
-        }
         
