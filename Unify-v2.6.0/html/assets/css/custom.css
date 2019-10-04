@@ -47,3 +47,10 @@ td{}
 /*contact*/
 .button_inner{color: #fff !important;}
 .btn:hover{color: #999 !important;}
+
+/*footer*/
+footer{background-color: #ff7676 !important;text-align:center !important;}
+.g-pink{background-color: #ff7676 !important;}
+.hidden {width: 0;height: 0;margin: 0;padding: 0;text-indent: -9999em;overflow: hidden;line-height: 0;font-size: 0;}
+.contact-list dd img {max-width: 100%;}
+.contact-list dd {display: inline-block;margin-left: 15px;}
