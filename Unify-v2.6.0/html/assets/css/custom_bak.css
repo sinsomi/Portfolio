@@ -1,8 +1,11 @@
 /* Add here all your css styles (customizations) */
 ul,li{list-sytle:none;list-style-type:none;padding-left: 0px !important;}
+
+/*about*/
 .spec{width: 100% !important;}
 .no_hover:hover{color:#000 !important;}
 .pf_des{height:230px !important;}
+.pf_des a{color: #666 !important;}
 .u-header--sticky-top{position: sticky !important;}
 .nav-sm{}
 .g-bg-black-opacity-0_3{background-color: #ff8787 !important;}
@@ -12,20 +15,35 @@ ul,li{list-sytle:none;list-style-type:none;padding-left: 0px !important;}
 .myname{color: #555 !important;}
 th{margin-left: 20px;min-width: 60px;}
 td{}
-.sub_des{font-size: 1.1rem !important;float:left;text-align:left;}
+.typing-txt{display: none;}
+.typing{font-size: 1.6rem !important;font-weight: 700;}
+.bg_main{background: url("../../assets/img/bg/bg_main.jpg") no-repeat center;background-size: cover;width: 100%;}
+.main_visual_inner{font-weight: 700;color: #fff;max-height: 300px;max-width: 300px;position: relative;display: inline-block;padding: 20px 20px;border: 5px solid #fff;}
+.char{padding: 2rem !important;}
+.tit {display: inline-block;padding: 5px 0;border-top: 4px solid #fff;font-size: 1.4rem !important;font-family: 'NanumSquareEB';}
+.tit_name {margin-top: 10px;font-size: 15px;}
+
+/*skill*/
 .hGraph{text-align:left;margin-bottom: 50px;}
 .hGraph .gBar{ position:relative; display:inline-block; height:40px; background:#ff7676;}
 .hGraph .gBar span{ position:absolute; width:30px; line-height:20px; top:0; right:-50px; color:#fff;font-size: 1.23rem !important;top: 20%;}
 .js-slide .g-px-15{width: 570px !important;}
 .pf_item{margin-bottom: 20px !important;}
+
+/*project*/
 .cover_wrap{position: relative;}
-.cover{margin: 0 auto;text-align:center;width: 100%;height: 100%;background-color: #222;position: absolute;opacity:0;}
-.cover ul{margin: 0 auto;text-align:center;position: relative;}
+.cover{margin: 0 auto;text-align:center;width: 100%;height: 100%;background-color: #222;position: absolute;/*opacity:0;*/}
+.cover ul{margin: 0 auto;text-align:center;position: relative;margin-top: 38%;width: fit-content;}
 .cover ul li{margin: 0 auto;text-align: center;float:left;margin-right: 20px;color: #ff7676;}
 .cover ul.pcm{}
 .cover ul.on_pc{}
 .cover ul li a{}
 .cover ul li a img{}
+.mb-0{text-align: center;color: #666; font-size: 1rem;}
 .pf_item:hover .cover{opacity:0.8;}
 
+::selection{color: #ff6767 !important;}
 
+/*contact*/
+.button_inner{color: #fff !important;}
+.btn:hover{color: #999 !important;}
