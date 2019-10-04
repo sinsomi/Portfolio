@@ -1,8 +1,25 @@
 /* Add here all your css styles (customizations) */
 ul,li{list-sytle:none;list-style-type:none;padding-left: 0px !important;}
+
+/*about*/
+.typing{font-size:2rem;}
+.typing-txt{display: none;}
+.typeing-txt ul{list-style:none;}
+.typing {  
+  display: inline-block; 
+  animation-name: cursor; 
+  animation-duration: 0.3s; 
+  animation-iteration-count: infinite; 
+} 
+@keyframes cursor{ 
+  0%{border-right: 1px solid #fff} 
+  50%{border-right: 1px solid #000} 
+  100%{border-right: 1px solid #fff} 
+}
+
 .spec{width: 100% !important;}
 .no_hover:hover{color:#000 !important;}
-.pf_des{height:230px !important;}
+.pf_des{height:230px !important;text-align: center;}
 .u-header--sticky-top{position: sticky !important;}
 .nav-sm{}
 .g-bg-black-opacity-0_3{background-color: #ff8787 !important;}
@@ -10,21 +27,37 @@ ul,li{list-sytle:none;list-style-type:none;padding-left: 0px !important;}
 .g-font-size-default {font-size: 1.5rem !important;text-align: center;}
 .myself{background-color: #ff7676 !important;}
 .myname{color: #555 !important;}
-th{margin-left: 20px;min-width: 60px;}
-td{min-width: 240px;}
-.sub_des{font-size: 1.1rem !important;float:left;text-align:left;}
+.char{margin: 0 auto; text-align: center;}
+.sub_des{color: #333;font-size: 1.2rem !important;text-align:left;padding-top: 20px;}
+.sub_des ul{padding-bottom: 20px;}
+.sub_des .title{font-size: 1.4rem !important;font-weight: bold;}
+.sub_des .des{color: #555;}
+.sub_des .n_des{color: #999;}
+
+/*skill*/
 .hGraph{text-align:left;margin-bottom: 50px;}
 .hGraph .gBar{ position:relative; display:inline-block; height:40px; background:#ff7676;}
 .hGraph .gBar span{ position:absolute; width:30px; line-height:20px; top:0; right:-50px; color:#fff;font-size: 1.23rem !important;top: 20%;}
 .js-slide .g-px-15{width: 570px !important;}
 .pf_item{margin-bottom: 20px !important;}
+
+/*project*/
 .cover_wrap{position: relative;}
-.cover{width: 100%;height: 100%;background-color: #222;position: absolute;opacity: 0;}
-.cover ul{position: relative;width: 200px;height: 200px;margin: 200px 230px;}
-.cover ul.pcm{margin: 200px 210px;}
-.cover ul.on_pc{margin: 200px 260px;}
+.cover{margin: 0 auto;text-align:center;width: 100%;height: 100%;background-color: #222;position: absolute;opacity:0;transition: .5s all ease;}
+.cover ul{margin: 0 auto;text-align:center;position: relative;width: 100%;margin: 38% 43%;}
 .cover ul li{margin: 0 auto;text-align: center;float:left;margin-right: 20px;color: #ff7676;}
+.cover ul.pcm{margin: 38% 36%;}
+.cover ul.on_pc{margin: 38% 45%;}
 .cover ul li a{}
 .cover ul li a img{}
-.pf_item:hover .cover{opacity:0.8;}
+.mb-0{font-size: 1rem !important;color: #666;}
+.pf_item:hover .cover{opacity:0.9;}
+.job{font-size: 1.5rem;}
+
+/*contact*/
+.button_inner{color: #fff;}
+
+
+
+
 
