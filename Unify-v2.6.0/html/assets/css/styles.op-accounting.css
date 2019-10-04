@@ -826,8 +826,8 @@ hr {
 }
 
 .u-btn-primary:hover, .u-btn-primary.active {
-  border-color: #ff7676;
-  background-color: #ff7676;
+  border-color: #999;
+  background-color: #999;
 }
 
 .u-btn-primary:hover, .u-btn-primary:focus, .u-btn-primary.active {
